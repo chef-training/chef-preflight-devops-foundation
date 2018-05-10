@@ -7,13 +7,8 @@ $outputfile = "$env:username" +"_" + "$current_time" + "_results.csv"
 $results = @()
 
 $sites = @(
-	'google.com',
 	'aws.amazon.com',
-	'cloud.google.com',
-	'rackspace.com',
-	'azure.microsoft.com',
  	'manage.chef.io',
-	'use.cloudshare.com',
 	'supermarket.chef.io',
 	'api.chef.io',
 	'rubygems.org',
