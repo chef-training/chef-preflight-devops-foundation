@@ -92,12 +92,15 @@ done
 
 ports=(\
   22 \
-  3389
+  5985 \
+  3389 \
+  80 \
+  443
   )
 
 echo
 echo "###############################################################################"
-echo "Checking outgoing SSH and RDP ports..."
+echo "Checking outgoing SSH, WINRM, RDP, HTTP and HTTPS ports"
 echo 
 
 col=40
